@@ -1,0 +1,212 @@
+<!-- biography
+<div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4">
+          <h4>
+            Feynman was a professor of physics at the California Institute of
+            Technology (Caltech) from 1950 until his death in 1988.
+          </h4>
+        </div>
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col-md-6">
+              <img
+                src="Images/Richard11.jpg"
+                alt=""
+                style="width: 100%; height: inherit"
+              />
+            </div>
+            <div class="col-md-6" style="font-size: 23px">
+              <p style="color: #855f35">
+                Richard Feynman was born on May 11, 1918, in Queens, New York
+                City. His father, Melville Feynman, was a sales manager and his
+                mother, Lucille Phillips, was a homemaker. Feynman had a younger
+                sister, Joan. Feynman showed an early aptitude for mathematics
+                and science, and he was encouraged by his parents to pursue his
+                interests. He attended Far Rockaway High School in Queens, where
+                he excelled academically and was known for his pranks and sense
+                of humor. In 1935, Feynman enrolled at the Massachusetts
+                Institute of Technology (MIT) to study electrical engineering.
+                However, he soon realized that his true passion was physics, and
+                he switched his major to physics in his second year.
+              </p>
+              <br /><br />
+            </div>
+          </div>
+          <p style="font-size: 17px; color: #855f35">
+            During his time at MIT, Feynman stood out as a brilliant student who
+            was always eager to learn. He had a reputation for being something
+            of a maverick and had a habit of questioning conventional wisdom. He
+            was also a gifted storyteller and had a knack for making complex
+            concepts easy to understand. <br />
+
+            Feynman was also an accomplished athlete during his time at MIT,
+            having competed on the university's gymnastics team. He was known
+            for his physical strength and agility, and his athletic abilities
+            helped him to develop a disciplined and focused approach to his
+            studies. <br />
+            Feynman's time at MIT played a significant role in shaping his
+            intellectual and personal development. It was during this time that
+            he developed his love for physics and began to hone the analytical
+            skills that would make him one of the most influential physicists of
+            his generation.<br />
+          </p>
+          <p style="font-size: 17px; color: #855f35">
+            Feynman was married three times. His first marriage was to Arline
+            Greenbaum, whom he met while they were both students at Far Rockaway
+            High School. They were married in 1942, but Arline tragically died
+            of tuberculosis in 1945. This was a devastating loss for Feynman,
+            and he often spoke about how much he missed her. <br /><br />
+            Feynman faced discrimination and prejudice as a Jew in the 1930s and
+            1940s. He was turned down for a job at the University of Wisconsin
+            because of his Jewish background, and he also faced anti-Semitic
+            comments and attitudes from some of his colleagues. <br /><br />
+            After Arline's death, he became very isolated and had difficulty
+            coping with his grief. He also suffered from bouts of depression
+            throughout his career. Feynman worked on the Manhattan Project in
+            Los Alamos, New Mexico. There, he became friends with Hans Bethe,
+            another physicist working on the project, and they would often go on
+            hiking trips together. <br /><br />
+            In 1952, Feynman married Mary Louise Bell, a fellow physicist whom
+            he had met at Cornell University. They had two children together, a
+            son named Carl and a daughter named Michelle. However, the marriage
+            ended in divorce in 1956. <br />
+            In 1960,Feynman married Gweneth Howarth, an English woman. They had
+            a son named Richard, but the marriage also ended in divorce in 1985.
+            <br />
+            <br />
+            Feynman was a pioneer in the field of quantum electrodynamics, which
+            is the study of the interactions between particles and light. His
+            work in this area earned him the Nobel Prize in Physics in 1965.
+            <br /><br />
+            Feynman was also known for his contributions to the development of
+            the atomic bomb during World War II. He worked on the Manhattan
+            Project at Los Alamos, where he was instrumental in the development
+            of the bomb's detonators. <br /><br />
+            Feynman was an engaging and charismatic speaker, and his lectures on
+            physics have become legendary. Many of his lectures were recorded
+            and transcribed, and they continue to be studied and admired by
+            physicists around the world. <br /><br />
+            Feynman was also a passionate advocate for science education, and he
+            worked to inspire young people to pursue careers in science and
+            engineering. He was a popular teacher at the California Institute of
+            Technology, where he mentored many students who went on to become
+            leading physicists in their own right. <br /><br />
+            Feynman's legacy extends beyond his scientific contributions, as he
+            was also known for his colorful personality and his irreverent
+            approach to life. Feynman was known for his love of music, and he
+            played the bongos and the frigidaire (a Brazilian percussion
+            instrument). He was also an accomplished artist and enjoyed
+            sketching and painting. He enjoyed exploring a wide range of
+            interests and pursuits outside of his work in physics. <br /><br />
+            Feynman struggled with depression at various points in his life. He
+            faced criticism from some of his colleagues for his unorthodox
+            approach to physics. He was known for his irreverent attitude
+            towards authority and his willingness to challenge established
+            theories and ideas. <br /><br />
+          </p>
+        </div>
+      </div>
+    </div> -->
+
+<!-- career
+<div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4">
+          <h3 style="font-size: 45px; color: #170d07">The Career of Feynman</h3>
+        </div>
+        <div class="col-md-8">
+          <p style="font-size: 17px; color: #855f35">
+            <br />
+            Feynman graduated from the Massachusetts Institute of Technology
+            (MIT) in 1939, and went on to receive his Ph.D. in physics from
+            Princeton University in 1942. During World War II, he worked on the
+            Manhattan Project, which developed the first nuclear weapons.
+            <br /><br />
+            After the war, Feynman became a professor at Cornell University, and
+            later at the California Institute of Technology (Caltech).
+            <br /><br />
+            Richard Feynman had a long and productive career at the California
+            Institute of Technology (Caltech) where he joined as a professor of
+            theoretical physics in 1950 and remained until his death in 1988.
+            During his time at Caltech, Feynman made many significant
+            contributions to the field of physics and helped establish the
+            institute as a leading center of research and education in the
+            sciences. <br /><br />
+
+            One of Feynman's most important contributions to Caltech was the
+            development of a new approach to teaching physics. He taught a
+            series of undergraduate courses, known as "The Feynman Lectures on
+            Physics," which became widely popular and have since been published
+            as a three-volume set. Feynman's teaching style was known for its
+            clarity, humor, and ability to convey complex ideas in simple terms.
+            <br /><br />
+
+            Feynman was also known for his involvement in the investigation of
+            the Space Shuttle Challenger disaster in 1986. He served on the
+            presidential commission that investigated the accident and was
+            instrumental in identifying the cause of the explosion. <br />
+            <br /><br />
+
+            <div class="container-fluid"><div class="row"><div class="col-md-12"><img src="Images/Career--RF.png" alt="" />`</div></div></div>
+          </p>
+          <p style="font-size: 17px; color: #855f35">
+            <br />
+            <br />
+            The path integral formulation, also known as the Feynman path
+            integral, is a mathematical formalism used in quantum mechanics to
+            describe the behavior of particles. It was first introduced by
+            Richard Feynman in a series of papers published in the late 1940s
+            and early 1950s. <br />
+            <br />
+
+            The first paper, titled "Space-Time Approach to Quantum
+            Electrodynamics," was published in the Physical Review in 1949. In
+            this paper, Feynman introduced the path integral formulation as a
+            new approach to understanding the behavior of particles in quantum
+            electrodynamics (QED). <br /><br />
+
+            Feynman's second paper on the path integral formulation, titled "An
+            Operator Calculus Having Applications in Quantum Electrodynamics,"
+            was published in the Physical Review in 1950. This paper further
+            developed the mathematical framework of the path integral
+            formulation and introduced the concept of "Feynman diagrams," a
+            powerful visual tool used to represent particle interactions in QED.
+            <br /><br />
+
+            Finally, Feynman's third paper on the path integral formulation,
+            titled "Mathematical Formulation of the Quantum Theory of
+            Electromagnetic Interaction," was published in the Physical Review
+            in 1951. This paper provided a more comprehensive mathematical
+            description of the path integral formulation and its applications in
+            QED. <br />
+            <br />
+
+            Feynman diagrams were invented by the physicist Richard Feynman in
+            the 1940s. Feynman was working on a new approach to quantum field
+            theory, which describes the behavior of subatomic particles. At the
+            time, quantum field theory was a very difficult and abstract
+            subject, and it was hard to make sense of the equations and
+            calculations involved. Feynman realized that he could use diagrams
+            to help visualize the interactions between particles. <br /><br />
+
+            The basic idea behind a Feynman diagram is to represent the behavior
+            of particles as lines on a graph. The lines can represent particles
+            like electrons, protons, and photons, and the points where the lines
+            intersect represent the interactions between those particles.
+            <br /><br />
+
+            Feynman diagrams became an essential tool in quantum field theory,
+            allowing physicists to make calculations and predictions that were
+            previously impossible. They are still widely used today in particle
+            physics, and have been instrumental in the discovery of many new
+            particles and phenomena. One of the key advantages of Feynman
+            diagrams is their ability to simplify complex calculations by
+            breaking them down into simpler components. This has allowed
+            physicists to make predictions about the behavior of particles in a
+            wide variety of circumstances, from the behavior of subatomic
+            particles to the behavior of stars and galaxies.
+          </p>
+        </div>
+      </div>
+    </div> -->

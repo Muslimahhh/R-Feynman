@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Richard Feynman</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    <script src="angular-1.5.7/angular.min.js"></script>
+    <script src="angular-1.5.7/angular-route.min.js"></script>
+    <style>
+      .image-sample {
+        width: fit-content;
+        display: block;
+        max-width: 100%;
+      }
+      .bckgrd {
+        /* background-image: url(Images/Richard9.png); */
+
+        color: #f3ede0;
+      }
+      * {
+        font-family: "Poppins", sans-serif;
+      }
+      .imageContainer {
+        background-image: linear-gradient(
+            45deg,
+            rgba(35, 35, 35, 0.842),
+            rgba(35, 35, 35, 0.842)
+          ),
+          url(./Images/fmanbck.jpg);
+        background-position: top right;
+        background-size: cover;
+        height: 80vh;
+        background-repeat: no-repeat;
+        color: white;
+        background-attachment: fixed;
+      }
+    </style>
+  </head>
+  <body ng-app="myApp" >
+    
+    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#/biography">Richard Feynman: The Great Explainer</a>
+          </div>
+        </div>
+        <form class="d-flex" role="search">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#">`</a>
+            <a class="nav-link" href="#">Pricing</a>
+            <button class="nav-link" id="button"><span class="website-counter"></span> &nbsp; visitor(s) on this website</button>
+            <button id="reset" class="nav-link">Reset</button>
+          </div>
+        </form>
+      </div>
+    </nav> -->
+    
+    <div class="container-fluid">
+      <div class="">
+        <div></div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row imageContainer">
+
+        <div class="col-md-4" style="display: flex;flex-direction: column;justify-content: center;">
+          <h3>
+            "Winning a Nobel prize is no big deal, but winning it with an IQ of
+            124 is really something" - Richard Feynman
+          </h3>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#/">Biography</a>
+            <a class="nav-link" href="#/career">Career</a>
+            <a class="nav-link" href="#awards">Works And Awards</a>
+            <a class="nav-link" href="#/books">Books</a>
+            <a class="nav-link" href="#/death">Death</a>
+            <a class="nav-link" href="#/gallery">Gallery</a>
+          </div>
+        </div>
+        <form class="d-flex" role="search">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Pricing</a>
+            <button class="nav-link" id="button"><span class="website-counter"></span> &nbsp; visitor(s) on this website</button>
+            <button id="reset" class="nav-link">Reset</button>
+          </div>
+        </form>
+      </div>
+    </nav>
+    
+    <div class="container">
+      <div class="row">
+        <div class="container-fluid">
+          <br />
+          <h4 style="font-size: 45px; color: #5a361b">
+            "I learned very early the difference between knowing the name of
+            something and knowing something."
+          </h4>
+          <br />
+        </div>
+      </div>
+    </div>
+    <div ng-view></div>
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>
