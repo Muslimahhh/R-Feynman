@@ -50,4 +50,7 @@
         .when('/gallery',{
           templateUrl: 'gallery.html'
         })
+        .when('/site', {
+          templateUrl: 'siteMap.html'
+        })
     })
