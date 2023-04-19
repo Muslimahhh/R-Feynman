@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 /* For desktop: */
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -18,6 +20,29 @@
     width: 100%;
   }
 }
+
+#renav{
+  position: absolute !important; 
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(148, 80, 35, 0)) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  /* background: transparent;
+  background-color: rgba(2, 2, 2, 0.3);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px) saturation(80%); */
+  color: white;
+  font-size: 20px;
+  display: flex;
+  gap: 28%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: auto;
+  padding-bottom: 10px;
+  z-index: 2;
+}
+
+
 .title{
   text-align: center;
   margin: 0 auto 80px;
@@ -36,4 +61,44 @@
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.copyRight{
+font-size: 14px;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 2.5rem;
+}
+.logo2 h3{
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .copyRight{
+    margin-top: 1rem;
+  }
+  #counterer{
+    display: flex;
+    flex-direction: column;
+  }
+  .imageContainer{
+    height: 80vh;
+  }
+}
+
+@media (max-width: 1000px){
+  .logo2 h3{
+    display: block;
+  }
+}
+#sticker{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #855f35;
+  color: white !important;
+  font-size: 18px;
 }
