@@ -20,6 +20,13 @@
     <link rel="stylesheet" href="style.css">
     <script src="angular-1.5.7/angular.min.js"></script>
     <script src="angular-1.5.7/angular-route.min.js"></script>
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
     <style>
       .image-sample {
         width: fit-content;
@@ -34,16 +41,16 @@
       * {
         font-family: "Poppins", sans-serif;
       }
-      .imageContainer { 
+      .imageContainer {
         background-image: linear-gradient(
             45deg,
-            rgba(35, 35, 35, 0.842),
-            rgba(35, 35, 35, 0.842)
+            rgba(35, 35, 35, 0.8),
+            rgba(35, 35, 35, 0.8)
           ),
-          url(./Images/fmanbck.jpg);
+          url(./Images/4022617.jpg);
         background-position: top right;
         background-size: cover;
-        height: 60vh;
+        height: 68vh;
         background-repeat: no-repeat;
         color: white;
         background-attachment: fixed;
@@ -51,17 +58,32 @@
     </style>
   </head>
   <body ng-app="myApp" >
+    
     <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #855f35 !important;">
       <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link" href="#" style="color: #fff !important;"><h3>Richard Feynman: The Great Explainer</h3></a>
+            <a class="nav-link" href="" style="color: #fff !important;"><h3>Richard Feynman</h3></a>
           </div>
         </div>
         <form class="d-flex" role="search">
-          <div class="navbar-nav"> 
+          <div class="navbar-nav">
             <a class="nav-link" href="#"></a>
             <a class="nav-link" href="#"></a>
+            <div class="logo2">
+              <h3>Richard Feynman</h3>
+            </div>
             <button class="nav-link" id="button" style="color: #fff !important;"><span class="website-counter" ></span> &nbsp; visitor(s) on this website</button>
             <button id="reset" class="nav-link" style="color: #fff !important;">Reset</button>
           </div>
@@ -86,7 +108,7 @@
       </div>
     </div>
   <nav class="navbar navbar-expand-lg justify-content-center" style="background-color: #855f35 !important;">
-    <ul class="nav justify-content-center">
+    <ul class="nav justify-content-center" id="mainNav">
       <li class="nav-item">
         <a class="nav-link" href="#/" style="color: #fff !important;"><h4>Biography</h4></a>
       </li>
@@ -105,6 +127,9 @@
       <li class="nav-item">
         <a class="nav-link" href="#/gallery" style="color: #fff !important;"><h4>Gallery</h4></a> 
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#/site" style="color: #fff !important;"><h4>Site Map</h4></a> 
+      </li>
     </ul>
   </nav>
     
@@ -120,8 +145,64 @@
         </div>
       </div>
     </div> -->
-    <div ng-view></div>
+    <div id="root" ng-view></div>
     
+
+    <p class="copyRight">&copy Richard Feynman 2023</p>
+
+    
+    <div id="sticker">
+      <marquee behavior="scroll" direction="left" scrollamount="5">
+        <!-- Continous scrolling behaviour -->
+        <span id="datetime"></span> <!-- Placeholder for date, time, and location -->
+      </marquee>
+    </div>
+
+
+    <script>
+
+//  Code to hide homepage
+// function hide(){
+//         let home = document.querySelector('.home');
+//         home.style.display = 'none';
+//     }
+//     function show(){
+//         let home = document.querySelector('.home');
+//         home.style.display = 'flex';
+//     }
+
+
+      // Code to display date, time and location
+
+      //Get the current date and time
+      function getCurrentDateTime(){
+        var currentDate = new Date();
+        var day = currentDate.toLocaleDateString(undefined, {weekday: 'long'})
+        var date = currentDate.toLocaleDateString()
+        var time = currentDate.toLocaleDateString()
+
+        return day + ', ' + date + ' ' + time;
+      }
+
+      // Get the user's location using HTML5  geolocation
+      function getLocation(){
+        if(navigator.geolocation){
+          navigator.geolocation.getCurrentPosition(function(position){
+          var lat = position.coords.latitude;
+          var lng = position.coords.longitude;
+          var latlng = 'Location: ' + lat + ', ' + lng;
+          document.getElementById('datetime').innerText = getCurrentDateTime() + ' | ' + 'Latitude ' + lat + ' | ' + 'Longitude ' + lng;
+          })
+        }else{
+          document.getElementById('datetime').innerText = getCurrentDateTime();
+        }
+      }
+
+      // Update the sticker with the current date, time and location
+      getLocation();
+      setInterval(getLocation, 60000); // Update every minute
+    </script>
+
 
     <script src="script.js"></script>
   </body>
